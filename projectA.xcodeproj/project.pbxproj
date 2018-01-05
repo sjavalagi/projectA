@@ -14,6 +14,8 @@
 		587095151FFE24D7000679FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587095131FFE24D7000679FA /* LaunchScreen.storyboard */; };
 		587095201FFE24D8000679FA /* projectATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5870951F1FFE24D8000679FA /* projectATests.swift */; };
 		5870952B1FFE24D8000679FA /* projectAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5870952A1FFE24D8000679FA /* projectAUITests.swift */; };
+		587095391FFE4EF9000679FA /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587095381FFE4EF9000679FA /* ARViewController.swift */; };
+		587095401FFF3FE6000679FA /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 5870953F1FFF3FE6000679FA /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		587095261FFE24D8000679FA /* projectAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = projectAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5870952A1FFE24D8000679FA /* projectAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = projectAUITests.swift; sourceTree = "<group>"; };
 		5870952C1FFE24D8000679FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		587095381FFE4EF9000679FA /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		5870953F1FFF3FE6000679FA /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		587095091FFE24D7000679FA /* projectA */ = {
 			isa = PBXGroup;
 			children = (
+				5870953F1FFF3FE6000679FA /* art.scnassets */,
 				5870950A1FFE24D7000679FA /* AppDelegate.swift */,
 				5870950C1FFE24D7000679FA /* ViewController.swift */,
 				5870950E1FFE24D7000679FA /* Main.storyboard */,
 				587095111FFE24D7000679FA /* Assets.xcassets */,
 				587095131FFE24D7000679FA /* LaunchScreen.storyboard */,
 				587095161FFE24D7000679FA /* Info.plist */,
+				587095381FFE4EF9000679FA /* ARViewController.swift */,
 			);
 			path = projectA;
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				587095151FFE24D7000679FA /* LaunchScreen.storyboard in Resources */,
+				587095401FFF3FE6000679FA /* art.scnassets in Resources */,
 				587095121FFE24D7000679FA /* Assets.xcassets in Resources */,
 				587095101FFE24D7000679FA /* Main.storyboard in Resources */,
 			);
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				587095391FFE4EF9000679FA /* ARViewController.swift in Sources */,
 				5870950D1FFE24D7000679FA /* ViewController.swift in Sources */,
 				5870950B1FFE24D7000679FA /* AppDelegate.swift in Sources */,
 			);

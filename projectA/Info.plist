@@ -41,5 +41,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>ProjectA requires access to your location for better app experience</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>ProjectA requires access to your location for better app experience</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>ProjectA requires access to your location for better app experience</string>
+	<key>NSCameraUsageDescription</key>
+	<string>ProjectA requires access to your camera for better AR experience</string>
 </dict>
 </plist>
